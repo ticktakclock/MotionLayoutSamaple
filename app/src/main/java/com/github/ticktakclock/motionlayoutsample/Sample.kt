@@ -1,3 +1,3 @@
 package com.github.ticktakclock.motionlayoutsample
 
-data class Sample(val title: String, val description: String)
+data class Sample(val title: String, val description: String, val resId: Int)
