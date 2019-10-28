@@ -9,10 +9,10 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity() {
 
     private val dataset = arrayOf(
-        Sample("Title1", "Description1", R.layout.activity_sample),
-        Sample("Title2", "Description2", R.layout.activity_sample),
-        Sample("Title3", "Description3", R.layout.activity_sample),
-        Sample("Title4", "Description4", R.layout.activity_sample)
+        Sample("Sample 1", "Moving right to left on swipe.", R.layout.motion_01),
+        Sample("Title2", "Description2", R.layout.motion_01),
+        Sample("Title3", "Description3", R.layout.motion_01),
+        Sample("Title4", "Description4", R.layout.motion_01)
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
