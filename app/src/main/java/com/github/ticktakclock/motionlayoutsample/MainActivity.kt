@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
     private val dataset = arrayOf(
         Sample("Sample 1", "Moving right to left on swipe.", R.layout.motion_01),
         Sample("Sample 2", "Moving right to left on swipe, using ConstraintSet", R.layout.motion_02),
-        Sample("Title3", "Description3", R.layout.motion_01),
+        Sample("Sample 3", "Moving right to left on swipe, using CustomAttribute", R.layout.motion_03),
         Sample("Title4", "Description4", R.layout.motion_01)
     )
 
