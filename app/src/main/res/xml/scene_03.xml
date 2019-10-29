@@ -27,6 +27,10 @@
                 motion:attributeName="BackgroundColor"
                 motion:customColorValue="@color/colorAccent"
                 />
+            <CustomAttribute
+                motion:attributeName="Rotation"
+                motion:customFloatValue="0"
+                />
         </Constraint>
     </ConstraintSet>
 
@@ -44,6 +48,10 @@
             <CustomAttribute
                 motion:attributeName="BackgroundColor"
                 motion:customColorValue="@color/colorPrimary"
+                />
+            <CustomAttribute
+                motion:attributeName="Rotation"
+                motion:customFloatValue="90"
                 />
         </Constraint>
     </ConstraintSet>
