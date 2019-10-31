@@ -13,7 +13,8 @@ class MainActivity : AppCompatActivity() {
         Sample("Sample 2", "Moving right to left on swipe, using ConstraintSet", R.layout.motion_02),
         Sample("Sample 3", "Moving right to left on swipe, using CustomAttribute", R.layout.motion_03),
         Sample("Sample 4", "Using KeyFrameSet on Sample 3", R.layout.motion_04),
-        Sample("Sample 5", "Using KeyFrameSet and KeyAttribute", R.layout.motion_05)
+        Sample("Sample 5", "Using KeyFrameSet and KeyAttribute", R.layout.motion_05),
+        Sample("Sample 6", "Using ImageFilterView, cross fade image", R.layout.motion_06)
 
     )
 
