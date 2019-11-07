@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showPaths="true"
+    android:id="@+id/motionLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/scene_09">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_add"
+        app:fabCustomSize="48dp"
+        tools:layout_editor_absoluteX="339dp"
+        tools:layout_editor_absoluteY="659dp" />
+
+    <TextView
+        android:id="@+id/sub_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="camera"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="553dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/sub_btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3F51B5"
+        android:clickable="true"
+        android:src="@android:drawable/ic_menu_camera"
+        app:fabCustomSize="32dp"
+        tools:layout_editor_absoluteX="332dp"
+        tools:layout_editor_absoluteY="560dp" />
+
+    <TextView
+        android:id="@+id/sub_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="call phone"
+        tools:layout_editor_absoluteX="297dp"
+        tools:layout_editor_absoluteY="714dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/sub_btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#03A9F4"
+        android:clickable="true"
+        android:src="@android:drawable/ic_menu_call"
+        app:fabCustomSize="32dp"
+        tools:layout_editor_absoluteX="363dp"
+        tools:layout_editor_absoluteY="723dp" />
+
+    <TextView
+        android:id="@+id/sub_text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="search"
+        tools:layout_editor_absoluteX="297dp"
+        tools:layout_editor_absoluteY="698dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/sub_btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF9800"
+        android:clickable="true"
+        android:src="@android:drawable/ic_menu_search"
+        app:fabCustomSize="32dp"
+        tools:layout_editor_absoluteX="368dp"
+        tools:layout_editor_absoluteY="691dp" />
+
+    <TextView
+        android:id="@+id/sub_text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="share social"
+        tools:layout_editor_absoluteX="297dp"
+        tools:layout_editor_absoluteY="698dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/sub_btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#4CAF50"
+        android:clickable="true"
+        android:src="@android:drawable/ic_menu_share"
+        app:fabCustomSize="32dp"
+        tools:layout_editor_absoluteX="368dp"
+        tools:layout_editor_absoluteY="691dp" />
+
+    <TextView
+        android:id="@+id/sub_text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="setting"
+        tools:layout_editor_absoluteX="297dp"
+        tools:layout_editor_absoluteY="698dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/sub_btn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#9C27B0"
+        android:clickable="true"
+        android:src="@android:drawable/ic_menu_manage"
+        app:fabCustomSize="32dp"
+        tools:layout_editor_absoluteX="368dp"
+        tools:layout_editor_absoluteY="691dp" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
