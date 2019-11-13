@@ -17,7 +17,8 @@ class MainActivity : AppCompatActivity() {
         Sample("Sample 6", "Using ImageFilterView, cross fade image", R.layout.motion_06),
         Sample("Sample 7", "Using KeyFrameSet and KeyCycle", R.layout.motion_07),
         Sample("Sample 8", "Multi ui animation", R.layout.motion_08),
-        Sample("Sample 9", "Floating action button, speed dial", R.layout.motion_09)
+        Sample("Sample 9", "Floating action button, speed dial", R.layout.motion_09),
+        Sample("Sample 10", "Using in header of CoordinatorLayout", R.layout.motion_10)
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {

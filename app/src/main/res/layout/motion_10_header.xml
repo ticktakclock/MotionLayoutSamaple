@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.ticktakclock.motionlayoutsample.Sample10MotionLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showPaths="true"
+    android:id="@+id/motionLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="50dp"
+    app:layoutDescription="@xml/scene_10"
+    app:layout_scrollFlags="scroll|enterAlways|snap|exitUntilCollapsed">
+
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/public_domain_photo_2"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sample_10_title"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="263dp" />
+
+    <TextView
+        android:id="@+id/title_sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sample_10_sub_title"
+        android:textColor="@android:color/white"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="348dp" />
+</com.github.ticktakclock.motionlayoutsample.Sample10MotionLayout>

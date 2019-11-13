@@ -1,4 +1,20 @@
 <resources>
     <string name="app_name">MotionLayoutSample</string>
     <string name="title_activity_sample">SampleActivity</string>
+    <string name="sample_10_title">Story</string>
+    <string name="sample_10_sub_title">The adventures of tom sawyer</string>
+    <string name="long_text">"https://etc.usf.edu/lit2go/34/the-adventures-of-tom-sawyer/
+The Adventures of Tom Sawyer is set in the 1840\s in the fictitious town of St. Petersburg, Missouri, where Tom lives with his deceased mother\s sister, Aunt Polly, and his half-brother, Sid. After Tom plays hooky from school, he is made to whitewash Aunt Polly\'s fence as punishment, but persuades his friends to do it for him.
+Tom\s real trouble begins when he and Huck Finn witness a murder committed by Injun Joe. They swear to never tell, and the wrong man, Muff Potter, is accused of the crime. Tom, Huck, and a friend run away to be pirates, but become aware that the whole town is searching for their bodies. Each of the boys make an appearance at their own funerals, where they are greeted with open arms. As Muff Potter\s trial begins, Tom is overcome with guilt and testifies against Injun Joe, who quickly flees the courtroom.
+
+Later, on a class field trip to a cave, Tom and his love interest, Becky Thatcher, get lost. As they run out of food and candles searching for a way out, Tom and Becky come upon Injun Joe, who is using the cave as a hideout. Tom finds a way out just as the search party is giving up. The town rejoices and Judge Thatcher, Becky\'s father, has the cave sealed, unknowingly trapping Injun Joe inside where he starves to death.
+MOST of the adventures recorded in this book really occurred; one or two were experiences of my own, the rest those of boys who were schoolmates of mine. Huck Finn is drawn from life; Tom Sawyer also, but not from an individual—he is a combination of the characteristics of three boys whom I knew, and therefore belongs to the composite order of architecture.
+
+The odd superstitions touched upon were all prevalent among children and slaves in the West at the period of this story—that is to say, thirty or forty years ago.
+
+Although my book is intended mainly for the entertainment of boys and girls, I hope it will not be shunned by men and women on that account, for part of my plan has been to try to pleasantly remind adults of what they once were themselves, and of how they felt and thought and talked, and what queer enterprises they sometimes engaged in.
+
+THE AUTHOR.
+        "
+    </string>
 </resources>
