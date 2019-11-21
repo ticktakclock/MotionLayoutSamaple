@@ -8,6 +8,8 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
+    private var isShowPath = false
+
     private val dataset = arrayOf(
         Sample("Sample 1", "Moving right to left on swipe.", R.layout.motion_01),
         Sample("Sample 2", "Moving right to left on swipe, using ConstraintSet", R.layout.motion_02),
@@ -26,18 +28,22 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val viewManager= LinearLayoutManager(this)
+        val viewManager = LinearLayoutManager(this)
         val mainSampleAdapter = MainSampleAdapter(dataset)
         this.main_motions_rclv.apply {
             setHasFixedSize(true)
             layoutManager = viewManager
             adapter = mainSampleAdapter
         }
+        this.main_show_path_sw.setOnCheckedChangeListener { _, isChecked ->
+            isShowPath = isChecked
+        }
     }
 
     fun start(activity: Class<*>, resId: Int) {
         val intent = Intent(this, activity).apply {
             putExtra("layout_res_id", resId)
+            putExtra("isShowPath", isShowPath)
         }
         startActivity(intent)
 
